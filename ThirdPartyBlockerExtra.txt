@@ -1,8 +1,8 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
-! Last modified: 13 May 2024
-! Version: 6.9
+! Last modified: 16 May 2024
+! Version: 7
 ! Syntax: Adblock
 ! Number of entries: 266
 !
