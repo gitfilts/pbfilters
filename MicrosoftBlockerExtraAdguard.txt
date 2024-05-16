@@ -1,0 +1,45 @@
+! Title: Microsoft Blocker Extra for Adguard
+! Description: This contains some extra microsoft telemetry ulrs which are not in WindowsSpyBlcoker and WindowsSpyBlcokerExtra. I will only allow microsoft update and some necessary stuffs to keep windows functional, but microsoft store may not function properly.
+! Expires: 1 day
+! Last modified: 16 May 2024
+! Version: 1.8
+! Number of entries: 36
+!   
+@@||cdn.winget.microsoft.com^$important
+@@||catalog.sf.dl.delivery.mp.microsoft.com^$important
+@@||graph.microsoft.com^$important
+@@||storeedgefd.dsx.mp.microsoft.com^$important
+@@||arc.msn.com^$important
+@@||r4.res.office365.com^$important
+@@||www.msftconnecttest.com^$important
+@@||login.live.com^$important
+@@||login.microsoftonline.com^$important
+@@||dns.msftncsi.com^$important
+@@||time.windows.com^$important
+@@||answers.microsoft.com^$important
+@@||support.microsoft.com^$important
+!||officeclient.microsoft.com^
+!||office365.com^
+!||office.net
+!||office.com^
+@@||go.microsoft.com^$important
+@@||fs.microsoft.com^$important
+@@||assets.msn.com^$important
+@@||licensing.mp.microsoft.com^$important
+@@||geo.prod.do.dsp.mp.microsoft.com^
+||licensing.mp.microsoft.com^$important
+||nav.smartscreen.microsoft.com^
+||settings-win.data.microsoft.com^
+||fd.api.iris.microsoft.com^
+||inputsuggestions.msdxcdn.microsoft.com^
+||edge.microsoft.com^
+||nav-edge.smartscreen.microsoft.com^
+||config.edge.skype.com^
+||cxcs.microsoft.net
+||displaycatalog.mp.microsoft.com^
+||geover.prod.do.dsp.mp.microsoft.com^
+||windows.msn.com^
+||staticview.msn.com^
+||edgeservices.bing.com^
+||fpt.dfp.microsoft.com^
+||tsfe.trafficshaping.dsp.mp.microsoft.com^

@@ -1,0 +1,63 @@
+! Title: Mozilla Blocker for Adguard
+! Description: Block all Mozilla owned producsts and services. Only addons urls are allowed for extension access and updates on better mozilla/fierfox/thunderbird forked projects.
+! Expires: 1 day
+! Last modified: 23  Apr 2024
+! Version: 4
+! Syntax: AdGuard
+! Number of entries: 25
+!
+!
+!!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
+!
+!!! Mozilla Accounts
+!@@||accounts.firefox.com^
+!@@||accounts-static.cdn.mozilla.net^
+!
+!!! Mozilla Addons
+@@||addons.mozilla.org^
+@@||addons.thunderbird.net^
+||services.addons.mozilla.org^$important
+||services.addons.thunderbird.net^$important
+!
+!!! Mozilla Downloads servers/cdn
+!@@||cdn.mozilla.net^
+!@@||archive.mozilla.org^
+!
+!!! Betterbird/Thunderbird allowlist
+!@@||live.thunderbird.net^
+!@@||autoconfig.thunderbird.net^
+!
+!!! Support and blogs
+@@||support.mozilla.org^
+!
+!!! Third party dns used in other apps
+!@@||mozilla.cloudflare-dns.com^
+!
+!!!!!! Bloking all Mozilla Products and Services !!!!!!
+||*firefox.com*^
+||*getpocket.com*^
+||*mozaws.net*^
+||*mozgcp.net*^
+||*mozilla.com*^
+||*mozilla.net*^
+||*mozilla.org*^
+||*mozorg.moz.works*^
+||*thunderbird.net*^
+||*fakespot.com*^
+!
+!!!!!! All leftover domains and urls
+||mozamo.wpengine.com^
+||mozillamessaging.com^
+||mozilla.dorando.at^
+||mozillamaintenanceservice.duckdns.org^
+||mozsocial.cliqz.com^
+!
+!!!Redundant Rules
+!||fenix.mozilla.org^
+!||mozilla.auth0.com^
+!||metric.mozilla-pontoon-staging.herokuapp.com^
+!||tracking-protection-issues.herokuapp.com^
+!
+!!! Some related extenal urls
+||adjust.com^
+||herokuapp.com^
