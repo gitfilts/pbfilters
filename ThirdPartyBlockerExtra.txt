@@ -106,6 +106,7 @@
 !Not-Blocked!||catbox.moe^$3p
 !Not-Blocked!||alphacoders.com^$3p
 !Not-Blocked!||iili.io^$3p
+!Not-Blocked!||l3n.co^$3p
 !Not-Blocked!||imgur.com^$3p
 ||postimg.org^$3p
 ||giphy.com^$3p
@@ -333,7 +334,6 @@
 ||*ubuntu.com^$3p
 ||valorantinfo.com^$3p
 ||wired.com^$3p
-!||l3n.co^$3p
 ||ftcdn.ne^$3p
 ||chdbits.co^$3p
 ||9gag.com^$3p
