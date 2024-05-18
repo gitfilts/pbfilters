@@ -1,26 +1,29 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
-! Last modified: 16 May 2024
-! Version: 7
+! Last modified: 19 May 2024
+! Version: 0.80
 ! Syntax: Adblock
 ! Number of entries: 266
 !
 !
-!!!!!!!!!Not blocked - Blocking these would break most websites on internet
-!||amazonaws.com^$3p
-!||cloudfront.net^$3p
-!||google.com^$3p
-!||gstatic.com^$3p
+!!!!!!!!- !Not-Blocked! - Blocking these would break most websites on internet
+!Not-Blocked!||cloudflare.com^$3p
+!Not-Blocked!||cloudfront.net^$3p
+!Not-Blocked!||amazonaws.com^$3p
+!Not-Blocked!||google.com^$3p
+!Not-Blocked!||gstatic.com^$3p
 !
 !
 !!!!! Social media and big tech sources
 !!facebook
 ||fbcdn.net^$3p,domain=~facebook.com|~messenger.com|~accountscenter.facebook.com|~fbsbx.com|~instagram.com|~fbcdn.net
-||fbsbx.com^$3p,domain=~domain=facebook.com|~messenger.com|~accountscenter.facebook.com
+||fbsbx.com^$3p,domain=~domain=facebook.com|~messenger.com|~accountscenter.facebook.com|~fbcdn.net
+||fbpigeon.com^$3p,domain=~facebook.com|~messenger.com|~accountscenter.facebook.com|~fbsbx.com|~fbcdn.net
 ||facebook.com^$3p
 ||facebook.net^$3p
 ||threads.net^$3p
+!Not-Blocked!||instagram.com^$3p
 !
 !!google
 ||googleusercontent.com^$3p,domain=~youtube.com|~play.google.com|~google.com
@@ -28,18 +31,19 @@
 ||ggpht.com^$3p,domain=~youtube.com|~play.google.com|~google.com
 ||goo.gl^$3p
 ||jnn-pa.googleapis.com^
-!||youtube.com^$3p
-!||youtube-nocookie.com^$3p
+!Not-Blocked!||youtube.com^$3p
+!Not-Blocked!||youtube-nocookie.com^$3p
 !
 !!microsoft
-||bing.com^$3p
+||bing.com^$3p^$3p,domain=~microsoft.com
+||msn.com^$3p,domain=~bing.com|~microsoft.com|~.windows.com|~windowsupdate.com|~microsoftonline.com
 !
 !!discord
-||discord.com^$3p,domain=~discordapp.com|~discordapp.net|~discord.gg~|discord.c99.nl|~c99.nl
-||discord.gg^$3p,domain=~discordapp.com|~discordapp.net|~discord.c99.nl|~c99.nl
-||discordapp.com^$3p,domain=~discord.com|~discord.gg|~discordapp.net|~discord.c99.nl|~c99.nl
+||discord.com^$3p,domain=~discordapp.com|~discordapp.net|~discord.gg|~c99.nl
+||discord.gg^$3p,domain=~discordapp.com|~discordapp.net|~c99.nl
+||discordapp.com^$3p,domain=~discord.com|~discord.gg|~discordapp.net|~c99.nl
+||c99.nl^$3p,domain=~discordapp.com|~discordapp.net|~discord.gg
 ||discordapp.net^$3p
-||c99.nl^$3p
 !
 !!twitter
 ||twimg.com^$3p,domain=~twitter.com
@@ -93,14 +97,16 @@
 ||aptabase.com^3p
 !
 !!!!!Image and video host sites that are on observation
-!||postimg.cc^$3p
-!||ptpimg.me^$3p
-!||imagebam.com^$3p
-!||imgbox.com^$3p
-!||ibb.co^$3p
-!||gifyu.com^$3p
-!||catbox.moe^$3p
-!||alphacoders.com^$3p
+!Not-Blocked!||postimg.cc^$3p
+!Not-Blocked!||ptpimg.me^$3p
+!Not-Blocked!||imagebam.com^$3p
+!Not-Blocked!||imgbox.com^$3p
+!Not-Blocked!||ibb.co^$3p
+!Not-Blocked!||gifyu.com^$3p
+!Not-Blocked!||catbox.moe^$3p
+!Not-Blocked!||alphacoders.com^$3p
+!Not-Blocked!||iili.io^$3p
+!Not-Blocked!||imgur.com^$3p
 ||postimg.org^$3p
 ||giphy.com^$3p
 ||avatars.githubusercontent.com^$3p,domain=~github.com|~githubusercontent.com|~github.io
@@ -170,15 +176,15 @@
 !
 !
 !!!!!! All other 3p sources
+!Not-Blocked!||wp.com^$3p
 ||pcgamebenchmark.com^$3p
 ||speedtest.net^$3p
 ||medium.com^$3p
 ||tenor.com^$3p
-||nperf.com^$3p,domain+~proof.ovh.net
+||nperf.com^$3p,domain=~proof.ovh.net
 ||findicons.com^$3p
 ||malsignature.com^$3p
 ||myanimelist.net^$3p
-||wp.com^$3p
 ||hebergementwebs.com^$3p
 ||askideas.com^$3p
 ||fanpop.com^$3p
@@ -249,7 +255,6 @@
 ||wallpapers.com^$3p
 ||small-screen.co.uk^$3p
 ||vgr.com^$3p
-!||iili.io^$3p
 ||gyazo.com^$3p
 ||bbcode.org^$3p
 ||myconfinedspace.com^$3p
@@ -338,3 +343,4 @@
 ||petfinder.com^$3p
 ||wildcatvoice.org^$3p
 ||askubuntu.com^$3p
+||barcauniversal.com^$3p
