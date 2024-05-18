@@ -2,7 +2,7 @@
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
 ! Last modified: 19 May 2024
-! Version: 0.80
+! Version: 0.81
 ! Syntax: Adblock
 ! Number of entries: 266
 !
