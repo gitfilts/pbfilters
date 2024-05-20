@@ -2,7 +2,7 @@
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
 ! Last modified: 20 May 2024
-! Version: 0.84
+! Version: 0.85
 ! Syntax: Adblock
 ! Number of entries: 266
 !
@@ -179,7 +179,7 @@
 !
 !!!!!! All other 3p sources
 !Not-Blocked!||wp.com^$3p,domain=~wordpress.com|~wpvip.com
-||brave.com^$3p
+||brave.com^$3p,domain=~chromewebstore.google.com
 ||pcgamebenchmark.com^$3p
 ||speedtest.net^$3p
 ||medium.com^$3p
