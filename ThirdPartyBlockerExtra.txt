@@ -1,8 +1,8 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
-! Last modified: 19 May 2024
-! Version: 0.81
+! Last modified: 20 May 2024
+! Version: 0.82
 ! Syntax: Adblock
 ! Number of entries: 266
 !
@@ -17,31 +17,31 @@
 !
 !!!!! Social media and big tech sources
 !!facebook
-||fbcdn.net^$3p,domain=~facebook.com|~messenger.com|~accountscenter.facebook.com|~fbsbx.com|~instagram.com|~fbcdn.net
-||fbsbx.com^$3p,domain=~domain=facebook.com|~messenger.com|~accountscenter.facebook.com|~fbcdn.net
-||fbpigeon.com^$3p,domain=~facebook.com|~messenger.com|~accountscenter.facebook.com|~fbsbx.com|~fbcdn.net
+||fbcdn.net^$3p,domain=~facebook.com|~messenger.com|~fbsbx.com|~fbcdn.net|~instagram.com
+||fbsbx.com^$3p,domain=~facebook.com|~messenger.com|~fbcdn.net|~instagram.com
+||fbpigeon.com^$3p,domain=~facebook.com|~messenger.com|~fbsbx.com|~fbcdn.net|~instagram.com
 ||facebook.com^$3p
 ||facebook.net^$3p
 ||threads.net^$3p
 !Not-Blocked!||instagram.com^$3p
 !
 !!google
-||googleusercontent.com^$3p,domain=~youtube.com|~play.google.com|~google.com
-||ytimg.com^$3p,domain=domain=~youtube.com|~play.google.com|~google.com
-||ggpht.com^$3p,domain=~youtube.com|~play.google.com|~google.com
+||googleusercontent.com^$3p,domain=~youtube.com|~youtube-nocookie.com|~play.google.com|~google.com
+||ytimg.com^$3p,domain=domain=~youtube.com|~youtube-nocookie.com|~play.google.com|~google.com
+||ggpht.com^$3p,domain=~youtube.com|~youtube-nocookie.com|~play.google.com|~google.com
 ||goo.gl^$3p
 ||jnn-pa.googleapis.com^
 !Not-Blocked!||youtube.com^$3p
 !Not-Blocked!||youtube-nocookie.com^$3p
 !
 !!microsoft
-||bing.com^$3p^$3p,domain=~microsoft.com
+||bing.com^$3p,domain=~microsoft.com
 ||msn.com^$3p,domain=~bing.com|~microsoft.com|~.windows.com|~windowsupdate.com|~microsoftonline.com
 !
 !!discord
-||discord.com^$3p,domain=~discordapp.com|~discordapp.net|~discord.gg|~c99.nl
-||discord.gg^$3p,domain=~discordapp.com|~discordapp.net|~c99.nl
-||discordapp.com^$3p,domain=~discord.com|~discord.gg|~discordapp.net|~c99.nl
+||discord.com^$3p,domain=~discordapp.com|~discordapp.net|~discord.gg
+||discord.gg^$3p,domain=~discordapp.com|~discordapp.net
+||discordapp.com^$3p,domain=~discord.com|~discord.gg|~discordapp.net
 ||c99.nl^$3p,domain=~discordapp.com|~discordapp.net|~discord.gg
 ||discordapp.net^$3p
 !
@@ -49,6 +49,7 @@
 ||twimg.com^$3p,domain=~twitter.com
 ||x.com^$3p,domain=~twitter.com
 ||twitter.com^$3p
+||pbs.twimg.com^$3p
 !
 !!news
 ||cnn.com^$3p
@@ -177,7 +178,8 @@
 !
 !
 !!!!!! All other 3p sources
-!Not-Blocked!||wp.com^$3p
+||wp.com^$3p
+||brave.com^$3p
 ||pcgamebenchmark.com^$3p
 ||speedtest.net^$3p
 ||medium.com^$3p
@@ -344,3 +346,4 @@
 ||wildcatvoice.org^$3p
 ||askubuntu.com^$3p
 ||barcauniversal.com^$3p
+||cosplaycentral.com^$3p
