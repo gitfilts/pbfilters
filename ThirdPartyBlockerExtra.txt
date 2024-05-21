@@ -1,10 +1,10 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
-! Last modified: 20 May 2024
-! Version: 0.85
+! Last modified: 22 May 2024
+! Version: 0.86
 ! Syntax: Adblock
-! Number of entries: 266
+! Number of entries: 301
 !
 !
 !!!!!!!!- !Not-Blocked! - Blocking these would break most websites on internet
@@ -42,11 +42,13 @@
 ||discord.com^$3p,domain=~discordapp.com|~discordapp.net|~discord.gg
 ||discord.gg^$3p,domain=~discordapp.com|~discordapp.net
 ||discordapp.com^$3p,domain=~discord.com|~discord.gg|~discordapp.net
+||discordapp.com^$script,third-party,domain=~discord.com|~discord.gg|~discordapp.net
 ||c99.nl^$3p,domain=~discordapp.com|~discordapp.net|~discord.gg
 ||discordapp.net^$3p
 !
 !!twitter
-||twimg.com^$3p,domain=~twitter.com
+||twimg.com^$3p,domain=~twitter.com|~x.com
+||twimg.com^$script,third-party,domain=~twitter.com
 ||x.com^$3p,domain=~twitter.com
 ||twitter.com^$3p
 ||pbs.twimg.com^$3p
@@ -347,3 +349,4 @@
 ||askubuntu.com^$3p
 ||barcauniversal.com^$3p
 ||cosplaycentral.com^$3p
+||phoneky.co.uk^$3p
