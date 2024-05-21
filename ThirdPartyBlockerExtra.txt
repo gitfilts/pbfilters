@@ -2,7 +2,7 @@
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
 ! Last modified: 22 May 2024
-! Version: 0.86
+! Version: 0.87
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -81,7 +81,9 @@
 ||wikipedia.org^$3p
 ||behance.net^$3p
 ||redd.it^$3p,domain=~reddit.com
-||reddit.com^$3p
+||reddit.com^$3p,domain=~redditmedia.com|~redditstatic.com|~redd.it
+||redditmedia.com^$3p,domain=~reddit.com|~redditstatic.com
+||redditstatic.com^$3p,domain=~reddit.com|~redditmedia.com
 ||openai.com^$3p
 ||telegram.org^$3p
 ||telegra.ph^$3p
@@ -97,7 +99,9 @@
 ||disquscdn.com^$3p,domain=~disqus.com
 ||espn.com^$3p
 ||espncdn.com^$3p,domain=~espn.com
-||aptabase.com^3p
+||aptabase.com^$3p
+||stackexchange.com^$3p,domain=~superuser.com|~sstatic.net
+||sstatic.net^$3p,domain=~stackexchange.com|~superuser.com
 !
 !!!!!Image and video host sites that are on observation
 !Not-Blocked!||postimg.cc^$3p
