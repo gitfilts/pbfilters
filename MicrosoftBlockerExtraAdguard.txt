@@ -1,8 +1,8 @@
 ! Title: Microsoft Blocker Extra for Adguard
 ! Description: This contains some extra microsoft telemetry ulrs which are not in WindowsSpyBlcoker and WindowsSpyBlcokerExtra. I will only allow microsoft update and some necessary stuffs to keep windows functional, but microsoft store may not function properly.
 ! Expires: 1 day
-! Last modified: 16 May 2024
-! Version: 1.8
+! Last modified: 22 Apr 2024
+! Version: 1.9
 ! Number of entries: 36
 !   
 @@||cdn.winget.microsoft.com^$important
@@ -35,7 +35,7 @@
 ||edge.microsoft.com^
 ||nav-edge.smartscreen.microsoft.com^
 ||config.edge.skype.com^
-||cxcs.microsoft.net
+!||cxcs.microsoft.net
 ||displaycatalog.mp.microsoft.com^
 ||geover.prod.do.dsp.mp.microsoft.com^
 ||windows.msn.com^
