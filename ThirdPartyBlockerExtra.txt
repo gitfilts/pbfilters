@@ -103,7 +103,8 @@
 ||stackexchange.com^$3p,domain=~superuser.com|~sstatic.net
 ||sstatic.net^$3p,domain=~stackexchange.com|~superuser.com
 !
-!!!!!Image and video host sites that are on observation
+!!!!!Image and video host links and sites
+!Not-Blocked!||media-amazon.com^$3p
 !Not-Blocked!||postimg.cc^$3p
 !Not-Blocked!||ptpimg.me^$3p
 !Not-Blocked!||imagebam.com^$3p
@@ -116,6 +117,7 @@
 !Not-Blocked!||l3n.co^$3p
 !Not-Blocked!||imgur.com^$3p
 !Not-Blocked!||tenor.com^$3p
+!Not-Blocked!||asianimg.pro^$3p
 ||postimg.org^$3p
 ||giphy.com^$3p
 ||avatars.githubusercontent.com^$3p,domain=~github.com|~githubusercontent.com|~github.io
@@ -242,7 +244,7 @@
 ||pngkey.com^$3p
 ||boingboing.net^$3p
 ||fashioncentral.pk^$3p
-||||vgr.com^$3p
+||vgr.com^$3p
 ||x0.at^$3p
 ||scdn.co^$3p
 ||sndcdn.com^$3p
