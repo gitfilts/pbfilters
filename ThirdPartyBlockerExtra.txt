@@ -2,7 +2,7 @@
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
 ! Last modified: 23 May 2024
-! Version: 0.88
+! Version: 0.89
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -75,6 +75,11 @@
 ||glamourmagazine.co.uk^$3p
 !
 !!Others
+!Not-Blocked!||github.com^$3p
+!Not-Blocked!||githubusercontent.com^$3p,domain=~github.com|~github.io
+!Not-Blocked!||githubassets.com^$3p,domain=~github.com|~github.io
+!Not-Blocked!||gravatar.com^$3p,domain=~github.com|~github.io
+!Not-Blocked!||avatars.githubusercontent.com^$3p,domain=~github.com|~githubusercontent.com|~github.io
 ||tumblr.com^$3p
 ||deviantart.net^$3p
 ||wikimedia.org^$3p,domain=~wikipedia.org
@@ -82,12 +87,11 @@
 ||behance.net^$3p
 ||redd.it^$3p,domain=~reddit.com
 ||reddit.com^$3p,domain=~redditmedia.com|~redditstatic.com|~redd.it
-||redditmedia.com^$3p,domain=~reddit.com|~redditstatic.com
-||redditstatic.com^$3p,domain=~reddit.com|~redditmedia.com
+||redditmedia.com^$3p,domain=~reddit.com|~redditstatic.com|~redd.it
+||redditstatic.com^$3p,domain=~reddit.com|~redditmedia.com|~redd.it
 ||openai.com^$3p
-||telegram.org^$3p
-||telegra.ph^$3p
-||github.com^$3p
+||telegram.org^$3p,domain=~telegra.ph|~fragment.com
+||telegra.ph^$3p,domain=~telegram.org
 ||yelp.com^$3p
 ||yelpcdn.com^$3p,domain=~yelp.com
 ||ebay.com^$3p
@@ -120,8 +124,6 @@
 !Not-Blocked!||asianimg.pro^$3p
 ||postimg.org^$3p
 ||giphy.com^$3p
-||avatars.githubusercontent.com^$3p,domain=~github.com|~githubusercontent.com|~github.io
-||gravatar.com^$3p
 ||file.coffee^$3p
 ||imgflip.com^$3p
 ||slow.pics^$3p
