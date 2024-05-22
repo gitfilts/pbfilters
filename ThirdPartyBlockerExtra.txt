@@ -1,8 +1,8 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
-! Last modified: 22 May 2024
-! Version: 0.87
+! Last modified: 23 May 2024
+! Version: 0.88
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -115,6 +115,7 @@
 !Not-Blocked!||iili.io^$3p
 !Not-Blocked!||l3n.co^$3p
 !Not-Blocked!||imgur.com^$3p
+!Not-Blocked!||tenor.com^$3p
 ||postimg.org^$3p
 ||giphy.com^$3p
 ||avatars.githubusercontent.com^$3p,domain=~github.com|~githubusercontent.com|~github.io
@@ -189,7 +190,6 @@
 ||pcgamebenchmark.com^$3p
 ||speedtest.net^$3p
 ||medium.com^$3p
-||tenor.com^$3p
 ||nperf.com^$3p,domain=~proof.ovh.net
 ||findicons.com^$3p
 ||malsignature.com^$3p
