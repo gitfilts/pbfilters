@@ -2,7 +2,7 @@
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
 ! Last modified: 01 June 2024
-! Version: 0.91
+! Version: 0.92
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -30,7 +30,7 @@
 ||ytimg.com^$3p,domain=domain=~youtube.com|~youtube-nocookie.com|~play.google.com|~google.com
 ||ggpht.com^$3p,domain=~youtube.com|~youtube-nocookie.com|~play.google.com|~google.com
 ||goo.gl^$3p
-||jnn-pa.googleapis.com^
+||jnn-pa.googleapis.com^$3p,domain=~youtube.com|~youtube-nocookie.com|~play.google.com|~google.com
 !Not-Blocked!||youtube.com^$3p
 !Not-Blocked!||youtube-nocookie.com^$3p
 !
