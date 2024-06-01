@@ -1,8 +1,8 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
-! Last modified: 23 May 2024
-! Version: 0.89
+! Last modified: 01 June 2024
+! Version: 0.90
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -105,7 +105,7 @@
 ||espncdn.com^$3p,domain=~espn.com
 ||aptabase.com^$3p
 ||stackexchange.com^$3p,domain=~superuser.com|~sstatic.net
-||sstatic.net^$3p,domain=~stackexchange.com|~superuser.com
+||sstatic.net^$3p,domain=~stackexchange.com|~superuser.com|~stackoverflow.com
 !
 !!!!!Image and video host links and sites
 !Not-Blocked!||media-amazon.com^$3p
