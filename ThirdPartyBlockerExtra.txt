@@ -2,7 +2,7 @@
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
 ! Last modified: 01 June 2024
-! Version: 0.90
+! Version: 0.91
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -35,7 +35,7 @@
 !Not-Blocked!||youtube-nocookie.com^$3p
 !
 !!microsoft
-||bing.com^$3p,domain=~microsoft.com
+||bing.com^$3p,domain=~microsoft.com|~msc.com
 ||msn.com^$3p,domain=~bing.com|~microsoft.com|~.windows.com|~windowsupdate.com|~microsoftonline.com
 !
 !!discord
