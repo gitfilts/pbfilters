@@ -1,8 +1,8 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
-! Last modified: 01 June 2024
-! Version: 0.92
+! Last modified: 3 June 2024
+! Version: 0.93
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -122,11 +122,11 @@
 !Not-Blocked!||imgur.com^$3p
 !Not-Blocked!||tenor.com^$3p
 !Not-Blocked!||asianimg.pro^$3p
-||postimg.org^$3p
-||giphy.com^$3p
-||file.coffee^$3p
-||imgflip.com^$3p
-||slow.pics^$3p
+!Not-Blocked!||postimg.org^$3p
+!Not-Blocked!||giphy.com^$3p
+!Not-Blocked!||imgflip.com^$3p
+!Not-Blocked!||slow.pics^$3p
+!Not-Blocked!||file.coffee^$3p
 ||veed.io^$3p
 ||gifer.com^$3p
 ||flightradar24.com^$3p
