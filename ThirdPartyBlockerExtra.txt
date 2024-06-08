@@ -2,7 +2,7 @@
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
 ! Last modified: 8 June 2024
-! Version: 0.95
+! Version: 0.96
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -13,6 +13,8 @@
 !Not-Blocked!||amazonaws.com^$3p
 !Not-Blocked!||google.com^$3p
 !Not-Blocked!||gstatic.com^$3p
+!Not-Blocked!||jsdelivr.net^$3p
+!Not-Blocked!||jquery.com^$3p
 !
 !
 !!!!! Blocking Some frequently triggered safe browsing, data leak threats and potential security risk urls
