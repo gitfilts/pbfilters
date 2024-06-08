@@ -1,8 +1,8 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
-! Last modified: 3 June 2024
-! Version: 0.93
+! Last modified: 8 June 2024
+! Version: 0.94
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -14,6 +14,9 @@
 !Not-Blocked!||google.com^$3p
 !Not-Blocked!||gstatic.com^$3p
 !
+!
+!!!!! Blocking Some frequently triggered safe browsing, data leak threats and potential security risk urls
+||browsestat.com^$3p
 !
 !!!!! Social media and big tech sources
 !!facebook
