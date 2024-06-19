@@ -1,8 +1,8 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
-! Last modified: 11 June 2024
-! Version: 0.98
+! Last modified: 19 June 2024
+! Version: 0.99
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -32,7 +32,7 @@
 !
 !!google
 ||googleusercontent.com^$3p,domain=~youtube.com|~youtube-nocookie.com|~play.google.com|~google.com
-||ytimg.com^$3p,domain=domain=~youtube.com|~youtube-nocookie.com|~play.google.com|~google.com
+||ytimg.com^$3p,domain=~youtube.com|~youtube-nocookie.com|~play.google.com|~google.com
 ||ggpht.com^$3p,domain=~youtube.com|~youtube-nocookie.com|~play.google.com|~google.com
 ||goo.gl^$3p
 ||jnn-pa.googleapis.com^$3p,domain=~youtube.com|~youtube-nocookie.com|~play.google.com|~google.com
@@ -43,7 +43,7 @@
 !
 !!microsoft
 ||bing.com^$3p,domain=~microsoft.com|~msc.com
-||msn.com^$3p,domain=~bing.com|~microsoft.com|~.windows.com|~windowsupdate.com|~microsoftonline.com
+||msn.com^$3p,domain=~bing.com|~microsoft.com|~windows.com|~windowsupdate.com|~microsoftonline.com
 !
 !!discord
 ||discord.com^$3p,domain=~discordapp.com|~discordapp.net|~discord.gg
