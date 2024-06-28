@@ -1,8 +1,8 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
 ! Expires: 1 day
-! Last modified: 19 June 2024
-! Version: 0.99
+! Last modified: 29 June 2024
+! Version: 1.00
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -47,7 +47,7 @@
 !
 !!discord
 ||discord.com^$3p,domain=~discordapp.com|~discordapp.net|~discord.gg
-||discord.gg^$3p,domain=~discordapp.com|~discordapp.net
+||discord.gg^$3p,domain=~discordapp.com|~discordapp.net|~discord.com
 ||discordapp.com^$3p,domain=~discord.com|~discord.gg|~discordapp.net
 ||discordapp.com^$script,third-party,domain=~discord.com|~discord.gg|~discordapp.net
 ||c99.nl^$3p,domain=~discordapp.com|~discordapp.net|~discord.gg
