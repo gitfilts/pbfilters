@@ -1,8 +1,8 @@
 ! Title: Mozilla Blocker for Adguard
 ! Description: Block all Mozilla owned producsts and services. Only addons urls are allowed for extension access and updates on better mozilla/fierfox/thunderbird forked projects.
 ! Expires: 1 day
-! Last modified: 23  Apr 2024
-! Version: 4
+! Last modified: 02 July 2024
+! Version: 4.1
 ! Syntax: AdGuard
 ! Number of entries: 25
 !
@@ -10,8 +10,8 @@
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 !
 !!! Mozilla Accounts
-!@@||accounts.firefox.com^
-!@@||accounts-static.cdn.mozilla.net^
+!Not-Blocked!@@||accounts.firefox.com^
+!Not-Blocked!@@||accounts-static.cdn.mozilla.net^
 !
 !!! Mozilla Addons
 @@||addons.mozilla.org^
@@ -20,18 +20,18 @@
 ||services.addons.thunderbird.net^$important
 !
 !!! Mozilla Downloads servers/cdn
-!@@||cdn.mozilla.net^
-!@@||archive.mozilla.org^
+!Not-Blocked!@@||cdn.mozilla.net^
+!Not-Blocked!@@||archive.mozilla.org^
 !
 !!! Betterbird/Thunderbird allowlist
-!@@||live.thunderbird.net^
-!@@||autoconfig.thunderbird.net^
+!Not-Blocked!@@||live.thunderbird.net^
+!Not-Blocked!@@||autoconfig.thunderbird.net^
 !
 !!! Support and blogs
 @@||support.mozilla.org^
 !
 !!! Third party dns used in other apps
-!@@||mozilla.cloudflare-dns.com^
+!Not-Blocked!@@||mozilla.cloudflare-dns.com^
 !
 !!!!!! Bloking all Mozilla Products and Services !!!!!!
 ||*firefox.com*^
@@ -53,11 +53,11 @@
 ||mozsocial.cliqz.com^
 !
 !!!Redundant Rules
-!||fenix.mozilla.org^
-!||mozilla.auth0.com^
-!||metric.mozilla-pontoon-staging.herokuapp.com^
-!||tracking-protection-issues.herokuapp.com^
+!Not-Blocked!||fenix.mozilla.org^
+!Not-Blocked!||mozilla.auth0.com^
+!Not-Blocked!||metric.mozilla-pontoon-staging.herokuapp.com^
+!Not-Blocked!||tracking-protection-issues.herokuapp.com^
 !
 !!! Some related extenal urls
-||adjust.com^
-||herokuapp.com^
+!Not-Blocked!||adjust.com^
+!Not-Blocked!||herokuapp.com^
