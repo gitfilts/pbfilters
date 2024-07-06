@@ -1,8 +1,8 @@
 ! Title: Mozilla Blocker for Adguard
 ! Description: Block all Mozilla owned producsts and services. Only addons urls are allowed for extension access and updates on better mozilla/fierfox/thunderbird forked projects.
 ! Expires: 1 day
-! Last modified: 02 July 2024
-! Version: 4.1
+! Last modified: 07 July 2024
+! Version: 4.11
 ! Syntax: AdGuard
 ! Number of entries: 25
 !
@@ -20,7 +20,7 @@
 ||services.addons.thunderbird.net^$important
 !
 !!! Mozilla Downloads servers/cdn
-!Not-Blocked!@@||cdn.mozilla.net^
+@@||cdn.mozilla.net^
 !Not-Blocked!@@||archive.mozilla.org^
 !
 !!! Betterbird/Thunderbird allowlist
