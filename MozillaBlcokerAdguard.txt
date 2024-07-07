@@ -2,7 +2,7 @@
 ! Description: Block all Mozilla owned producsts and services. Only addons urls are allowed for extension access and updates on better mozilla/fierfox/thunderbird forked projects.
 ! Expires: 1 day
 ! Last modified: 08 July 2024
-! Version: 4.12
+! Version: 4.13
 ! Syntax: AdGuard
 ! Number of entries: 25
 !
@@ -35,6 +35,7 @@
 !
 !!!!!! Important Rules to block known Mozilla tracking attempts
 ||telemetry.mozilla.org^$important
+||classify-client.services.mozilla.com^$important
 ||contile.services.mozilla.com^$important
 ||normandy.cdn.mozilla.net^$important
 ||normandy-cdn.services.mozilla.com^$important
