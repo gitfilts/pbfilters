@@ -1,8 +1,8 @@
 ! Title: Mozilla Blocker for Adguard
 ! Description: Block all Mozilla owned producsts and services. Only addons urls are allowed for extension access and updates on better mozilla/fierfox/thunderbird forked projects.
 ! Expires: 1 day
-! Last modified: 07 July 2024
-! Version: 4.11
+! Last modified: 08 July 2024
+! Version: 4.12
 ! Syntax: AdGuard
 ! Number of entries: 25
 !
@@ -10,8 +10,8 @@
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 !
 !!! Mozilla Accounts
-!Not-Blocked!@@||accounts.firefox.com^
-!Not-Blocked!@@||accounts-static.cdn.mozilla.net^
+!Not-Applied!!@@||accounts.firefox.com^
+!Not-Applied!!@@||accounts-static.cdn.mozilla.net^
 !
 !!! Mozilla Addons
 @@||addons.mozilla.org^
@@ -19,20 +19,26 @@
 ||services.addons.mozilla.org^$important
 ||services.addons.thunderbird.net^$important
 !
-!!! Mozilla Downloads servers/cdn
+!!! Mozilla Downloads servers/cdn but blocking other tracking mozilla cdn
 @@||cdn.mozilla.net^
-!Not-Blocked!@@||archive.mozilla.org^
+!Not-Applied!!@@||archive.mozilla.org^
 !
 !!! Betterbird/Thunderbird allowlist
-!Not-Blocked!@@||live.thunderbird.net^
-!Not-Blocked!@@||autoconfig.thunderbird.net^
+!Not-Applied!@@||live.thunderbird.net^
+!Not-Applied!@@||autoconfig.thunderbird.net^
 !
 !!! Support and blogs
 @@||support.mozilla.org^
 !
 !!! Third party dns used in other apps
-!Not-Blocked!@@||mozilla.cloudflare-dns.com^
+!Not-Applied!!@@||mozilla.cloudflare-dns.com^
 !
+!!!!!! Important Rules to block known Mozilla tracking attempts
+||telemetry.mozilla.org^$important
+||contile.services.mozilla.com^$important
+||normandy.cdn.mozilla.net^$important
+||normandy-cdn.services.mozilla.com^$important
+||normandy-cloudfront.cdn.mozilla.net^$important
 !!!!!! Bloking all Mozilla Products and Services !!!!!!
 ||*firefox.com*^
 ||*getpocket.com*^
@@ -53,11 +59,11 @@
 ||mozsocial.cliqz.com^
 !
 !!!Redundant Rules
-!Not-Blocked!||fenix.mozilla.org^
-!Not-Blocked!||mozilla.auth0.com^
-!Not-Blocked!||metric.mozilla-pontoon-staging.herokuapp.com^
-!Not-Blocked!||tracking-protection-issues.herokuapp.com^
+!Not-Applied!!||fenix.mozilla.org^
+!Not-Applied!!||mozilla.auth0.com^
+!Not-Applied!!||metric.mozilla-pontoon-staging.herokuapp.com^
+!Not-Applied!!||tracking-protection-issues.herokuapp.com^
 !
 !!! Some related extenal urls
-!Not-Blocked!||adjust.com^
-!Not-Blocked!||herokuapp.com^
+!Not-Applied!!||adjust.com^
+!Not-Applied!!||herokuapp.com^

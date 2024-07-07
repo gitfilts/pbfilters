@@ -11,7 +11,6 @@
 #0.0.0.0 versioncheck-bg.addons.thunderbird.net
 0.0.0.0 accounts.firefox.com
 0.0.0.0 accounts-static.cdn.mozilla.net
-0.0.0.0 d2pp80vsjn2e6y.cloudfront.net
 0.0.0.0 www.accounts.firefox.com
 0.0.0.0 mozorg.moz.works
 0.0.0.0 www.mozorg.moz.works
@@ -83,8 +82,6 @@
 0.0.0.0 copy.loop.services.mozilla.com
 0.0.0.0 crash-stats.mozilla.com
 0.0.0.0 crash-stats.mozilla.org
-0.0.0.0 d1aj75xh157otc.cloudfront.net
-0.0.0.0 d2js2viceajwla.cloudfront.net
 0.0.0.0 data.mozilla.com
 0.0.0.0 de.malware-error.mozilla.com
 0.0.0.0 de.phish-error.mozilla.com
@@ -217,18 +214,3 @@
 0.0.0.0 webextensions.settings.services.mozilla.com
 0.0.0.0 workflow.telemetry.mozilla.org
 0.0.0.0 www.mozillamaintenanceservice.duckdns.org
-#
-### Additional external urls related to or used by mozilla in many occassions
-0.0.0.0 adjust.com
-0.0.0.0 app.adjust.com
-0.0.0.0 app.adjust.net.in
-0.0.0.0 app.adjust.world
-0.0.0.0 f5f7ln7s.gvtl.com
-0.0.0.0 herokuapp.com
-0.0.0.0 o1069899.ingest.sentry.io
-0.0.0.0 r4---sn-f5f7ln7s.gvtl.com
-0.0.0.0 redirector.gvt1.com
-0.0.0.0 safebrowsing.googleapis.com
-0.0.0.0 sdk.adjust.com
-0.0.0.0 sdk.android.adjust.com
-#
