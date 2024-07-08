@@ -2,7 +2,7 @@
 ! Description: Block all Mozilla owned producsts and services. Only addons urls are allowed for extension access and updates on better mozilla/fierfox/thunderbird forked projects.
 ! Expires: 1 day
 ! Last modified: 08 July 2024
-! Version: 4.17
+! Version: 4.19
 ! Syntax: AdGuard
 ! Number of entries: 100
 !
@@ -34,7 +34,6 @@
 !Not-Applied!@@||mozilla.cloudflare-dns.com^
 !
 !!!!!! Definite Rules to block known Mozilla tracking attempts with "important" tag for Adguard
-||broker-live.mozillamessaging.com^$important
 ||contile.services.mozilla.com^$important
 ||contile-images.services.mozilla.com^$important
 ||classify-client.services.mozilla.com^$important$important
@@ -45,9 +44,11 @@
 ||crash-stats.mozilla.org^$important
 ||data.mozilla.com^$important
 ||download-stats.mozilla.org^$important
+||firefox-android-home-recommendations.getpocket.com^$important
 ||fls.merino.services.mozilla.com^$important
 ||live.mozillamessaging.com^$important
 ||metric.mozilla-pontoon-staging.herokuapp.com^$important
+||mozillamessaging.com^$important
 ||mozillaupdates.com^$important
 ||mware.socorro.stage.webapp.sjc1.mozilla.com^$important
 ||normandy.cdn.mozilla.net^$important
@@ -55,6 +56,7 @@
 ||normandy-cdn.services.mozilla.com^$important
 ||normandy-cloudfront.cdn.mozilla.net^$important
 ||normandy-devtools.services.mozilla.com^$important
+||settings.services.mozilla.com^$important
 ||snippets.cdn.mozilla.net^$important
 ||snippets.mozilla.com^$important
 ||socorro.services.mozilla.com^$important
@@ -62,11 +64,13 @@
 ||socorro-mware-stage-zlb.webapp.phx1.mozilla.com^$important
 ||socorro-mware-zlb.webapp.phx1.mozilla.com^$important
 ||socorro-webapp.services.mozilla.com^$important
+||spocs.getpocket.com^$important
 ||telemetry.mozilla.org^$important
 ||telemetry-coverage.mozilla.org^$important
 ||telemetry-coverage.r53-2.services.mozilla.com^$important
 ||telemetry-data.r53-2.services.mozilla.com^$important
 ||telemetry-incoming.r53-2.services.mozilla.com^$important
+||tracking.firefox.com.cn^$important
 ||tracking.services.mozilla.com^$important
 !
 !!!!!! Merciless Rules for Bloking all Mozilla Products and Services !!!!!!
