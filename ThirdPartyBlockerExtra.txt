@@ -1,8 +1,7 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
-! Expires: 1 day
-! Last modified: 29 June 2024
-! Version: 1.00
+! Last modified: 08 July 2024
+! Version: 1.01
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -93,9 +92,9 @@
 ||wikipedia.org^$3p
 ||behance.net^$3p
 ||redd.it^$3p,domain=~reddit.com
-||reddit.com^$3p,domain=~redditmedia.com|~redditstatic.com|~redd.it
-||redditmedia.com^$3p,domain=~reddit.com|~redditstatic.com|~redd.it
-||redditstatic.com^$3p,domain=~reddit.com|~redditmedia.com|~redd.it
+||reddit.com^$3p,domain=~redditmedia.com|~reddit.com|~old.reddit.com|~redditstatic.com|~redditmedia.com|~redd.it
+||redditmedia.com^$3p,domain=~reddit.com|~old.reddit.com|~redditstatic.com|~redd.it|~redditmedia.com
+||redditstatic.com^$3p,domain=~reddit.com|~old.reddit.com|~redditmedia.com|~redd.it|~redditstatic.com
 ||openai.com^$3p
 ||telegram.org^$3p,domain=~telegra.ph|~fragment.com
 ||telegra.ph^$3p,domain=~telegram.org
