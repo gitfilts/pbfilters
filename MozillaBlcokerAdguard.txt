@@ -8,9 +8,9 @@
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data and running experiments on its users.
 ! Expires: 1 day
 ! Last modified: 07 August 2024
-! Version: 5.2
+! Version: 5.3
 ! Syntax: AdGuard
-! Number of entries: 100
+! Number of entries: 60
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
