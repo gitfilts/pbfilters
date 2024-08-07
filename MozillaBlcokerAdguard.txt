@@ -1,6 +1,6 @@
 ! Title: Mozilla Blocker for Adguard
 ! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
-!              Mozilla accounts are blocked but mozilla download cdns are not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
+!              Mozilla accounts are blocked but mozilla download cdn is not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
 !              Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
 !              Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
 !              Use only in a systemwide Adblocker like Adguard which is available for Android, iOS, Windows, and Mac.
@@ -8,7 +8,7 @@
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data and running experiments on its users.
 ! Expires: 1 day
 ! Last modified: 07 August 2024
-! Version: 5.1
+! Version: 5.2
 ! Syntax: AdGuard
 ! Number of entries: 100
 !
