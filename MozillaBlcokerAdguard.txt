@@ -8,7 +8,7 @@
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data and running experiments on its users.
 ! Expires: 1 day
 ! Last modified: 07 August 2024
-! Version: 5.3
+! Version: 5.4
 ! Syntax: AdGuard
 ! Number of entries: 60
 !
@@ -40,6 +40,7 @@
 !Not-Applied!@@||mozilla.cloudflare-dns.com^
 !
 !!!!!! Definite Rules to block known Mozilla tracking attempts with "important" tag for Adguard
+||anonymco.com^$important
 ||contile.services.mozilla.com^$important
 ||contile-images.services.mozilla.com^$important
 ||classify-client.services.mozilla.com^$important$important
