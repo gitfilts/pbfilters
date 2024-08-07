@@ -1,8 +1,14 @@
 ! Title: Mozilla Blocker for Adguard
-! Description: Block all Mozilla owned producsts and services. Only addons urls are allowed for extension access and updates on better mozilla/fierfox/thunderbird forked projects.
+! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI and Data Collection and Advertisement Organization".
+!              Mozilla accounts are blocked but mozilla download cdns are not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
+!              Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
+!              Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
+!              Use only in a systemwide Adblocker like Adguard which is available for Android, iOS, Windows, and Mac.
+!              This blocklist is specifically for Adguard due to Adguard having systemwide blocking capabilities in various platforms like Mobile and desktop. 
+!              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data and running experiments on its users.
 ! Expires: 1 day
-! Last modified: 08 July 2024
-! Version: 4.19
+! Last modified: 07 August 2024
+! Version: 5
 ! Syntax: AdGuard
 ! Number of entries: 100
 !
@@ -10,8 +16,8 @@
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 !
 !!! Mozilla Accounts
-!Not-Applied!@@||accounts.firefox.com^
-!Not-Applied!@@||accounts-static.cdn.mozilla.net^
+!Blocked!@@||accounts.firefox.com^
+!Blocked!@@||accounts-static.cdn.mozilla.net^
 !
 !!! Mozilla Addons
 @@||addons.mozilla.org^
@@ -19,16 +25,16 @@
 ||services.addons.mozilla.org^$important
 ||services.addons.thunderbird.net^$important
 !
-!!! Mozilla Downloads servers/cdn but blocking other tracking mozilla cdn
+!!! Mozilla Downloads servers/cdn
 @@||cdn.mozilla.net^
-!Not-Applied!@@||archive.mozilla.org^
+!Blocked!@@||archive.mozilla.org^
 !
-!!! Betterbird/Thunderbird allowlist
-!Not-Applied!@@||live.thunderbird.net^
-!Not-Applied!@@||autoconfig.thunderbird.net^
+!!! Betterbird/Thunderbird urls which may/may not be needed to be allowed conditionally
+!Blocked!@@||live.thunderbird.net^
+!Blocked!@@||autoconfig.thunderbird.net^
 !
-!!! Support and blogs
-!Not-Applied!@@||support.mozilla.org^
+!!! Mozilla Support and blogs
+!Blocked!@@||support.mozilla.org^
 !
 !!! Third party dns used in other apps
 !Not-Applied!@@||mozilla.cloudflare-dns.com^
@@ -48,8 +54,13 @@
 ||fls.merino.services.mozilla.com^$important
 ||live.mozillamessaging.com^$important
 ||metric.mozilla-pontoon-staging.herokuapp.com^$important
+||mozamo.wpengine.com^$important
+||mozilla.auth0.com^$important
+||mozilla.dorando.at^$important
 ||mozillamessaging.com^$important
 ||mozillaupdates.com^$important
+||mozillamaintenanceservice.duckdns.org^$important
+||mozsocial.cliqz.com^$important
 ||mware.socorro.stage.webapp.sjc1.mozilla.com^$important
 ||normandy.cdn.mozilla.net^$important
 ||normandy.services.mozilla.com^$important
@@ -72,6 +83,7 @@
 ||telemetry-incoming.r53-2.services.mozilla.com^$important
 ||tracking.firefox.com.cn^$important
 ||tracking.services.mozilla.com^$important
+||tracking-protection-issues.herokuapp.com^$important
 !
 !!!!!! Merciless Rules for Bloking all Mozilla Products and Services !!!!!!
 ||*firefox.com*^
@@ -83,20 +95,6 @@
 ||*mozilla.org*^
 ||*mozorg.moz.works*^
 ||*thunderbird.net*^
+||*anonymco.com*^
 ||*fakespot.com*^
 !
-!!!!!! All leftover domains and urls
-||mozamo.wpengine.com^
-||mozillamessaging.com^
-||mozilla.dorando.at^
-||mozillamaintenanceservice.duckdns.org^
-||mozsocial.cliqz.com^
-!
-!!!Redundant Rules
-!Not-Applied!!||fenix.mozilla.org^
-!Not-Applied!!||mozilla.auth0.com^
-!Not-Applied!!||tracking-protection-issues.herokuapp.com^
-!
-!!! Some related extenal urls
-!Not-Applied!!||adjust.com^
-!Not-Applied!!||herokuapp.com^
