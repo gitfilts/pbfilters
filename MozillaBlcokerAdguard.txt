@@ -4,13 +4,13 @@
 !              Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
 !              Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
 !              Use only in a systemwide Adblocker like Adguard which is available for Android, iOS, Windows, and Mac.
-!              This blocklist is specifically for Adguard due to Adguard having systemwide blocking capabilities in various platforms like Mobile and desktop. 
-!              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data and running experiments on its users.
+!              This blocklist is specifically for Adguard due to Adguard having systemwide blocking capabilities on various platforms like Mobile and desktop. 
+!              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
 ! Expires: 1 day
-! Last modified: 07 August 2024
-! Version: 5.5
+! Last modified: 29 September 2024
+! Version: 6
 ! Syntax: AdGuard
-! Number of entries: 61
+! Number of entries: 67
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
@@ -43,13 +43,16 @@
 ||anonymco.com^$important
 ||contile.services.mozilla.com^$important
 ||contile-images.services.mozilla.com^$important
-||classify-client.services.mozilla.com^$important$important
+||classify-client.services.mozilla.com^$important
+||contile-images.services.mozilla.com^$important
 ||crash-reports.mozilla.com^$important
 ||crash-reports-xpsp2.mozilla.com^$important
+||crash-stats.allizom.org^$important
 ||crash-stacks.mozilla.com^$important
 ||crash-stats.mozilla.com^$important
 ||crash-stats.mozilla.org^$important
 ||data.mozilla.com^$important
+||dataops.mozgcp.net^$important
 ||download-stats.mozilla.org^$important
 ||firefox-android-home-recommendations.getpocket.com^$important
 ||fls.merino.services.mozilla.com^$important
@@ -69,6 +72,7 @@
 ||normandy-cloudfront.cdn.mozilla.net^$important
 ||normandy-devtools.services.mozilla.com^$important
 ||settings.services.mozilla.com^$important
+||snippets.allizom.org^$important
 ||snippets.cdn.mozilla.net^$important
 ||snippets.mozilla.com^$important
 ||socorro.services.mozilla.com^$important
@@ -76,12 +80,14 @@
 ||socorro-mware-stage-zlb.webapp.phx1.mozilla.com^$important
 ||socorro-mware-zlb.webapp.phx1.mozilla.com^$important
 ||socorro-webapp.services.mozilla.com^$important
+||socorro-webapp-allizom.stage.mozaws.net^$important
 ||spocs.getpocket.com^$important
 ||telemetry.mozilla.org^$important
 ||telemetry-coverage.mozilla.org^$important
 ||telemetry-coverage.r53-2.services.mozilla.com^$important
 ||telemetry-data.r53-2.services.mozilla.com^$important
 ||telemetry-incoming.r53-2.services.mozilla.com^$important
+||topsites.services.mozilla.com^$important
 ||tracking.firefox.com.cn^$important
 ||tracking.services.mozilla.com^$important
 ||tracking-protection-issues.herokuapp.com^$important

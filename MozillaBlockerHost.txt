@@ -1,7 +1,7 @@
 # Mozilla/Firefox Host BlockList #
 # This host BlockList blocks all mozilla products(including mozilla accounts), only allows extension urls for extension installation and updates to keep addons work on firefox based browsers.
 # Many of the urls are repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
-# Last modified: 20 Apr 2024
+# Last modified: 29 Sep 2024
 ### Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 #0.0.0.0 addons.mozilla.org
 #0.0.0.0 addons.thunderbird.net
@@ -79,10 +79,14 @@
 0.0.0.0 content-signature-2.cdn.mozilla.net
 0.0.0.0 content-signature.cdn.mozilla.net
 0.0.0.0 contile.services.mozilla.com
+0.0.0.0 contile-images.services.mozilla.com
 0.0.0.0 copy.loop.services.mozilla.com
+0.0.0.0 coverage.mozilla.org
+0.0.0.0 crash-stats.allizom.org
 0.0.0.0 crash-stats.mozilla.com
 0.0.0.0 crash-stats.mozilla.org
 0.0.0.0 data.mozilla.com
+0.0.0.0 dataops.mozgcp.net
 0.0.0.0 de.malware-error.mozilla.com
 0.0.0.0 de.phish-error.mozilla.com
 0.0.0.0 de.phish-report.mozilla.com
@@ -164,6 +168,8 @@
 0.0.0.0 qsurvey.mozilla.com
 0.0.0.0 remote-settings.prod.webservices.mozgcp.net
 0.0.0.0 reps.mozilla.org
+0.0.0.0 socorro-webapp.services.mozilla.com
+0.0.0.0 socorro-webapp-allizom.stage.mozaws.net
 0.0.0.0 search.r53-2.services.mozilla.com 
 0.0.0.0 search.services.mozilla.com
 0.0.0.0 self-repair.mozilla.org
@@ -186,6 +192,7 @@
 0.0.0.0 setup.services.mozilla.com
 0.0.0.0 shavar.prod.mozaws.net
 0.0.0.0 shavar.services.mozilla.com
+0.0.0.0 snippets.allizom.org
 0.0.0.0 snippets.cdn.mozilla.net
 0.0.0.0 snippets.mozilla.com
 0.0.0.0 spocs.getpocket.com
@@ -199,10 +206,12 @@
 0.0.0.0 telemetry.gecko.mozilla.org
 0.0.0.0 telemetry.mozilla.org
 0.0.0.0 symbols.mozilla.org
+0.0.0.0 telemetry-coverage.mozilla.org
 0.0.0.0 telemetry-incoming.r53-2.services.mozilla.com
 0.0.0.0 testpilot.firefox.com
 0.0.0.0 thunderbird-settings.thunderbird.net
 0.0.0.0 token.services.mozilla.com
+0.0.0.0 topsites.services.mozilla.com
 0.0.0.0 tracking.firefox.com
 0.0.0.0 tracking.firefox.com.cn
 0.0.0.0 tracking.services.mozilla.com
