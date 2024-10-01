@@ -8,7 +8,7 @@
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
 ! Expires: 1 day
 ! Last modified: 29 September 2024
-! Version: 6
+! Version: 6.1
 ! Syntax: AdGuard
 ! Number of entries: 67
 !
@@ -37,7 +37,7 @@
 !Blocked!@@||support.mozilla.org^
 !
 !!! Third party dns used in other apps
-!Not-Applied!@@||mozilla.cloudflare-dns.com^
+!Not-Blocked!@@||mozilla.cloudflare-dns.com^
 !
 !!!!!! Definite Rules to block known Mozilla tracking attempts with "important" tag for Adguard
 ||anonymco.com^$important
@@ -92,7 +92,7 @@
 ||tracking.services.mozilla.com^$important
 ||tracking-protection-issues.herokuapp.com^$important
 !
-!!!!!! Merciless Rules for Bloking all Mozilla Products and Services !!!!!!
+!!!!!! Merciless Wide Spectrum Rules for Bloking all Mozilla Products and Services !!!!!!
 ||*firefox.com*^
 ||*getpocket.com*^
 ||*mozaws.net*^
