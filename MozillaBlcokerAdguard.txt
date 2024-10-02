@@ -7,8 +7,8 @@
 !              This blocklist is specifically for Adguard due to Adguard having systemwide blocking capabilities on various platforms like Mobile and desktop. 
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
 ! Expires: 1 day
-! Last modified: 29 September 2024
-! Version: 6.1
+! Last modified: 02 October 2024
+! Version: 6.2
 ! Syntax: AdGuard
 ! Number of entries: 67
 !
@@ -41,6 +41,7 @@
 !
 !!!!!! Definite Rules to block known Mozilla tracking attempts with "important" tag for Adguard
 ||anonymco.com^$important
+||aus5.mozilla.org^$important
 ||contile.services.mozilla.com^$important
 ||contile-images.services.mozilla.com^$important
 ||classify-client.services.mozilla.com^$important
@@ -57,6 +58,7 @@
 ||firefox-android-home-recommendations.getpocket.com^$important
 ||fls.merino.services.mozilla.com^$important
 ||live.mozillamessaging.com^$important
+||location.services.mozilla.com^$important
 ||metric.mozilla-pontoon-staging.herokuapp.com^$important
 ||mozamo.wpengine.com^$important
 ||mozilla.auth0.com^$important
