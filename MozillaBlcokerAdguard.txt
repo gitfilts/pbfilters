@@ -8,7 +8,7 @@
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
 ! Expires: 1 day
 ! Last modified: 02 October 2024
-! Version: 6.2
+! Version: 6.3
 ! Syntax: AdGuard
 ! Number of entries: 67
 !
@@ -73,7 +73,9 @@
 ||normandy-cdn.services.mozilla.com^$important
 ||normandy-cloudfront.cdn.mozilla.net^$important
 ||normandy-devtools.services.mozilla.com^$important
+||push.services.mozilla.com^$important
 ||settings.services.mozilla.com^$important
+||shavar.services.mozilla.com^$important
 ||snippets.allizom.org^$important
 ||snippets.cdn.mozilla.net^$important
 ||snippets.mozilla.com^$important
