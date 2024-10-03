@@ -1,7 +1,11 @@
 # Mozilla/Firefox Host BlockList #
-# This host BlockList blocks all mozilla products(including mozilla accounts), only allows extension urls for extension installation and updates to keep addons work on firefox based browsers.
+# This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+# Mozilla accounts are blocked but mozilla download cdn is not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
+# Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
+# Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
 # Many of the urls are repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
-# Last modified: 29 Sep 2024
+# Last modified: 04 Oct 2024
+#
 ### Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 #0.0.0.0 addons.mozilla.org
 #0.0.0.0 addons.thunderbird.net
