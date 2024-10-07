@@ -7,10 +7,10 @@
 !              This blocklist is specifically for Adguard due to Adguard having systemwide blocking capabilities on various platforms like Mobile and desktop. 
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
 ! Expires: 1 day
-! Last modified: 02 October 2024
-! Version: 6.3
+! Last modified: 07 October 2024
+! Version: 6.5
 ! Syntax: AdGuard
-! Number of entries: 67
+! Number of entries: 69
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
@@ -61,6 +61,7 @@
 ||location.services.mozilla.com^$important
 ||metric.mozilla-pontoon-staging.herokuapp.com^$important
 ||mozamo.wpengine.com^$important
+||mozilla.ai^$important
 ||mozilla.auth0.com^$important
 ||mozilla.dorando.at^$important
 ||mozillamessaging.com^$important
@@ -101,6 +102,7 @@
 ||*getpocket.com*^
 ||*mozaws.net*^
 ||*mozgcp.net*^
+||*mozilla.ai*^
 ||*mozilla.com*^
 ||*mozilla.net*^
 ||*mozilla.org*^
