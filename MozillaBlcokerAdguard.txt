@@ -8,7 +8,7 @@
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
 ! Expires: 1 day
 ! Last modified: 07 October 2024
-! Version: 6.5
+! Version: 6.6
 ! Syntax: AdGuard
 ! Number of entries: 70
 !
@@ -16,8 +16,8 @@
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 !
 !!! Mozilla Accounts
-!Blocked!@@||accounts.firefox.com^
-!Blocked!@@||accounts-static.cdn.mozilla.net^
+||accounts.firefox.com^
+||accounts-static.cdn.mozilla.net^
 !
 !!! Mozilla Addons
 @@||addons.mozilla.org^
@@ -58,6 +58,7 @@
 ||download-stats.mozilla.org^$important
 ||firefox-android-home-recommendations.getpocket.com^$important
 ||fls.merino.services.mozilla.com^$important
+||incoming.telemetry.mozilla.org^$important
 ||live.mozillamessaging.com^$important
 ||location.services.mozilla.com^$important
 ||metric.mozilla-pontoon-staging.herokuapp.com^$important
