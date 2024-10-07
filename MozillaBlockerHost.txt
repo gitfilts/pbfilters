@@ -8,6 +8,7 @@
 # Homepage: https://github.com/gitfilts/pbfilters
 # Source: https://raw.githubusercontent.com/gitfilts/pbfilters/refs/heads/main/MozillaBlockerHost.txt
 # Last modified: 07 Oct 2024
+# Number of entries: 212
 #
 # There is a much more extensive Adguard/Adgaurd Home version of Mozilla Blocker for systemdie adblocking and dns blocking - https://github.com/gitfilts/pbfilters/blob/main/MozillaBlcokerAdguard.txt 
 #
