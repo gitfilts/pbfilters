@@ -10,7 +10,7 @@
 ! Last modified: 07 October 2024
 ! Version: 6.5
 ! Syntax: AdGuard
-! Number of entries: 69
+! Number of entries: 70
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
@@ -27,6 +27,7 @@
 !
 !!! Mozilla Downloads servers/cdn
 @@||cdn.mozilla.net^
+@@||archive.mozilla.org^
 !Blocked!@@||archive.mozilla.org^
 !
 !!! Betterbird/Thunderbird urls which may/may not be needed to be allowed conditionally
