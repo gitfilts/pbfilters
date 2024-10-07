@@ -1,4 +1,4 @@
-! Title: Mozilla Blocker for Adguard
+! Title: Mozilla Blocker for Adguard/Adguard Home
 ! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
 !              Mozilla accounts are blocked but mozilla download cdn is not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
 !              Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
@@ -6,9 +6,15 @@
 !              Use only in a systemwide Adblocker like Adguard which is available for Android, iOS, Windows, and Mac.
 !              This blocklist is specifically for Adguard due to Adguard having systemwide blocking capabilities on various platforms like Mobile and desktop. 
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
+!
+! Host version of Mozilla Blocker is available which can be used systemwide on various platforms - https://github.com/gitfilts/pbfilters/blob/main/MozillaBlockerHost.txt
+!
+! Homepage: https://github.com/gitfilts/pbfilters
+! Source: https://raw.githubusercontent.com/gitfilts/pbfilters/refs/heads/main/MozillaBlcokerAdguard.txt
+! License: https://github.com/gitfilts/pbfilters/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 07 October 2024
-! Version: 6.6
+! Version: 6.7
 ! Syntax: AdGuard
 ! Number of entries: 70
 !
