@@ -4,7 +4,7 @@
 # Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
 # Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
 # Many of the urls are repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
-# Last modified: 04 Oct 2024
+# Last modified: 07 Oct 2024
 #
 ### Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 #0.0.0.0 addons.mozilla.org
@@ -37,6 +37,7 @@
 0.0.0.0 www.firefox.com
 0.0.0.0 www.getpocket.com
 0.0.0.0 www.labs.mozilla.org
+0.0.0.0 www.mozilla.ai
 0.0.0.0 www.monitor.firefox.com
 0.0.0.0 www.mozilla.com
 0.0.0.0 www.mozilla.org
