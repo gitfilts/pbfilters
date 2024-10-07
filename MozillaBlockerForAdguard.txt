@@ -1,0 +1,121 @@
+! Title: Mozilla Blocker for Adguard/Adguard Home
+! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+!              Mozilla accounts are blocked but mozilla download cdn is not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
+!              Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
+!              Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
+!              Use only in a systemwide Adblocker like Adguard which is available for Android, iOS, Windows, and Mac.
+!              This blocklist is specifically for Adguard due to Adguard having systemwide blocking capabilities on various platforms like Mobile and desktop. 
+!              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
+!
+! Host version of Mozilla Blocker is available which can be used systemwide on various platforms - https://github.com/gitfilts/pbfilters/blob/main/MozillaBlockerHost.txt
+!
+! Homepage: https://github.com/gitfilts/pbfilters
+! Source: https://raw.githubusercontent.com/gitfilts/pbfilters/refs/heads/main/MozillaBlockerForAdguard.txt
+! License: https://github.com/gitfilts/pbfilters/blob/main/LICENSE
+! Expires: 1 day
+! Last modified: 07 October 2024
+! Version: 6.8
+! Syntax: AdGuard
+! Number of entries: 70
+!
+!
+!!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
+!
+!!! Mozilla Accounts
+||accounts.firefox.com^
+||accounts-static.cdn.mozilla.net^
+!
+!!! Mozilla Addons
+@@||addons.mozilla.org^
+@@||addons.thunderbird.net^
+||services.addons.mozilla.org^$important
+||services.addons.thunderbird.net^$important
+!
+!!! Mozilla Downloads servers/cdn
+@@||cdn.mozilla.net^
+@@||archive.mozilla.org^
+!Blocked!@@||archive.mozilla.org^
+!
+!!! Betterbird/Thunderbird urls which may/may not be needed to be allowed conditionally
+!Blocked!@@||live.thunderbird.net^
+!Blocked!@@||autoconfig.thunderbird.net^
+!
+!!! Mozilla Support and blogs
+!Blocked!@@||support.mozilla.org^
+!
+!!! Third party dns used in other apps
+!Not-Blocked!@@||mozilla.cloudflare-dns.com^
+!
+!!!!!! Definite Rules to block known Mozilla tracking attempts with "important" tag for Adguard
+||anonymco.com^$important
+||aus5.mozilla.org^$important
+||contile.services.mozilla.com^$important
+||contile-images.services.mozilla.com^$important
+||classify-client.services.mozilla.com^$important
+||contile-images.services.mozilla.com^$important
+||crash-reports.mozilla.com^$important
+||crash-reports-xpsp2.mozilla.com^$important
+||crash-stats.allizom.org^$important
+||crash-stacks.mozilla.com^$important
+||crash-stats.mozilla.com^$important
+||crash-stats.mozilla.org^$important
+||data.mozilla.com^$important
+||dataops.mozgcp.net^$important
+||download-stats.mozilla.org^$important
+||firefox-android-home-recommendations.getpocket.com^$important
+||fls.merino.services.mozilla.com^$important
+||incoming.telemetry.mozilla.org^$important
+||live.mozillamessaging.com^$important
+||location.services.mozilla.com^$important
+||metric.mozilla-pontoon-staging.herokuapp.com^$important
+||mozamo.wpengine.com^$important
+||mozilla.ai^$important
+||mozilla.auth0.com^$important
+||mozilla.dorando.at^$important
+||mozillamessaging.com^$important
+||mozillaupdates.com^$important
+||mozillamaintenanceservice.duckdns.org^$important
+||mozsocial.cliqz.com^$important
+||mware.socorro.stage.webapp.sjc1.mozilla.com^$important
+||normandy.cdn.mozilla.net^$important
+||normandy.services.mozilla.com^$important
+||normandy-cdn.services.mozilla.com^$important
+||normandy-cloudfront.cdn.mozilla.net^$important
+||normandy-devtools.services.mozilla.com^$important
+||push.services.mozilla.com^$important
+||settings.services.mozilla.com^$important
+||shavar.services.mozilla.com^$important
+||snippets.allizom.org^$important
+||snippets.cdn.mozilla.net^$important
+||snippets.mozilla.com^$important
+||socorro.services.mozilla.com^$important
+||socorro-collector.services.mozilla.com^$important
+||socorro-mware-stage-zlb.webapp.phx1.mozilla.com^$important
+||socorro-mware-zlb.webapp.phx1.mozilla.com^$important
+||socorro-webapp.services.mozilla.com^$important
+||socorro-webapp-allizom.stage.mozaws.net^$important
+||spocs.getpocket.com^$important
+||telemetry.mozilla.org^$important
+||telemetry-coverage.mozilla.org^$important
+||telemetry-coverage.r53-2.services.mozilla.com^$important
+||telemetry-data.r53-2.services.mozilla.com^$important
+||telemetry-incoming.r53-2.services.mozilla.com^$important
+||topsites.services.mozilla.com^$important
+||tracking.firefox.com.cn^$important
+||tracking.services.mozilla.com^$important
+||tracking-protection-issues.herokuapp.com^$important
+!
+!!!!!! Merciless Wide Spectrum Rules for Bloking all Mozilla Products and Services !!!!!!
+||*firefox.com*^
+||*getpocket.com*^
+||*mozaws.net*^
+||*mozgcp.net*^
+||*mozilla.ai*^
+||*mozilla.com*^
+||*mozilla.net*^
+||*mozilla.org*^
+||*mozorg.moz.works*^
+||*thunderbird.net*^
+||*anonymco.com*^
+||*fakespot.com*^
+!
