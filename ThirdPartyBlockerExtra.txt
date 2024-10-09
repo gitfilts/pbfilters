@@ -1,7 +1,7 @@
 ! Title: Third Party Blocker Extra
 ! Description: This blocklist is intended to block most of the third party contents in all websites.
-! Last modified: 08 July 2024
-! Version: 1.01
+! Last modified: 09 Oct 2024
+! Version: 1.02
 ! Syntax: Adblock
 ! Number of entries: 301
 !
@@ -56,7 +56,7 @@
 ||twimg.com^$3p,domain=~twitter.com|~x.com
 ||twimg.com^$script,third-party,domain=~twitter.com|~x.com
 ||x.com^$3p,domain=~twitter.com
-||twitter.com^$3p
+||twitter.com^$3p^$3p,domain=~x.com
 ||pbs.twimg.com^$3p,domain=~twitter.com|~x.com
 !
 !!news
