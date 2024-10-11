@@ -2,8 +2,8 @@
 ! Description:This contains some extra microsoft telemetry ulrs which are not in WindowsSpyBlcoker and WindowsSpyBlcokerExtra. I will only allow microsoft update and some necessary stuffs to keep windows functional, but microsoft store may not function at all.
 ! Expires: 1 day
 ! Last modified: 12 Oct 2024
-! Version: 3
-! Number of entries: 46
+! Version: 3.01
+! Number of entries: 53
 !
 !
 !!! Microsoft Block all Urls 
@@ -42,6 +42,7 @@
 ||office365.com^
 ||office.net
 ||office.com^
+||smartscreen.microsoft.com^
 ||go.microsoft.com^$important
 ||fs.microsoft.com^$important
 ||assets.msn.com^$important
