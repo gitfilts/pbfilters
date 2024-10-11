@@ -2,7 +2,7 @@
 ! Description:This contains some extra microsoft telemetry ulrs which are not in WindowsSpyBlcoker and WindowsSpyBlcokerExtra. I will only allow microsoft update and some necessary stuffs to keep windows functional, but microsoft store may not function at all.
 ! Expires: 1 day
 ! Last modified: 12 Oct 2024
-! Version: 3.01
+! Version: 3.02
 ! Number of entries: 53
 !
 !
@@ -17,8 +17,8 @@
 ||msn-net.ru^
 !
 !!! Windows Update related Urls
-||update.microsoft.com^$important
-||delivery.mp.microsoft.com^$important
+@@||update.microsoft.com^$important
+@@||delivery.mp.microsoft.com^$important
 ||prod.do.dsp.mp.microsoft.com^$important
 ||windowsupdate.com^$important
 ||windowslatest.com^$important
