@@ -1,9 +1,9 @@
 ! Title: Microsoft Blocker Extra for Adguard
 ! Description:This contains some extra microsoft telemetry ulrs which are not in WindowsSpyBlcoker and WindowsSpyBlcokerExtra. I will only allow microsoft update and some necessary stuffs to keep windows functional, but microsoft store may not function at all.
 ! Expires: 1 day
-! Last modified: 12 Oct 2024
-! Version: 3.02
-! Number of entries: 53
+! Last modified: 13 Oct 2024
+! Version: 3.03
+! Number of entries: 54
 !
 !
 !!! Microsoft Block all Urls 
@@ -26,6 +26,7 @@
 !
 !!! Windows Package Manager Winget Related Urls
 @@||cdn.winget.microsoft.com^$important
+@@||download.visualstudio.microsoft.com^$important
 ||catalog.sf.dl.delivery.mp.microsoft.com^$important
 ||graph.microsoft.com^$important
 ||storeedgefd.dsx.mp.microsoft.com^$important
