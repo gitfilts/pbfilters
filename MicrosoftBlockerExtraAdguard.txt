@@ -2,19 +2,29 @@
 ! Description:This contains some extra microsoft telemetry ulrs which are not in WindowsSpyBlcoker and WindowsSpyBlcokerExtra. I will only allow microsoft update and some necessary stuffs to keep windows functional, but microsoft store may not function at all.
 ! Expires: 1 day
 ! Last modified: 13 Oct 2024
-! Version: 3.03
-! Number of entries: 54
+! Version: 3.04
+! Number of entries: 59
 !
 !
-!!! Microsoft Block all Urls 
+!!! Microsoft top level domains for blanket blocking
 ||microsoft.com^
 ||windows.com^
+||windows.net^
 ||copilot.microsoft.com^
 ||bing.com^
+||live.com^
 ||xboxlive.com^
 ||xboxservices.com^
+||office365.com^
+||office.net
+||office.com^
+||microsoftapp.net^
 ||msn.com^
 ||msn-net.ru^
+||trafficmanager.net^
+||msads.net^
+||*msedge.net^
+||appcenter.ms^
 !
 !!! Windows Update related Urls
 @@||update.microsoft.com^$important
@@ -24,7 +34,7 @@
 ||windowslatest.com^$important
 ||client.wns.windows.com^$important
 !
-!!! Windows Package Manager Winget Related Urls
+!!! Windows package related urls and other urls
 @@||cdn.winget.microsoft.com^$important
 @@||download.visualstudio.microsoft.com^$important
 ||catalog.sf.dl.delivery.mp.microsoft.com^$important
@@ -40,9 +50,6 @@
 ||answers.microsoft.com^$important
 ||support.microsoft.com^$important
 ||officeclient.microsoft.com^
-||office365.com^
-||office.net
-||office.com^
 ||smartscreen.microsoft.com^
 ||go.microsoft.com^$important
 ||fs.microsoft.com^$important
