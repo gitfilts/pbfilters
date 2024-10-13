@@ -1,8 +1,8 @@
 ! Title: Microsoft Blocker Extra for Adguard
 ! Description:This contains some extra microsoft telemetry ulrs which are not in WindowsSpyBlcoker and WindowsSpyBlcokerExtra. I will only allow microsoft update and some necessary stuffs to keep windows functional, but microsoft store may not function at all.
 ! Expires: 1 day
-! Last modified: 13 Oct 2024
-! Version: 3.04
+! Last modified: 14 Oct 2024
+! Version: 3.05
 ! Number of entries: 59
 !
 !
