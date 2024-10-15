@@ -2,8 +2,8 @@
 ! Description:This contains some extra microsoft telemetry ulrs which are not in WindowsSpyBlcoker and WindowsSpyBlcokerExtra. I will only allow microsoft update and some necessary stuffs to keep windows functional, but microsoft store may not function at all.
 ! Expires: 1 day
 ! Last modified: 15 Oct 2024
-! Version: 3.08
-! Number of entries: 62
+! Version: 3.09
+! Number of entries: 63
 !
 !
 !!! Microsoft top level domains for blanket blocking
@@ -37,6 +37,9 @@
 !!! Windows package related urls
 @@||cdn.winget.microsoft.com^$important
 @@||download.visualstudio.microsoft.com^$important\
+!
+!!! Microsoft Support and resource related Urls
+@@||learn.microsoft.com^$important
 !
 !!! Oter Urls
 ||catalog.sf.dl.delivery.mp.microsoft.com^$important
