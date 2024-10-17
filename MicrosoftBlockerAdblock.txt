@@ -2,10 +2,9 @@
 ! Description: This blocklist will block almost all traffic to microsoft. Only some essential urls are allowed for windows update and winget package manager to work.
 ! Expires: 1 day
 ! Last modified: 17 Oct 2024
-! Version: 0.11
+! Version: 0.12
 ! Syntax: Adblock
 ! Number of entries: 64
-!
 !
 !!! Microsoft top level domains for blanket blocking
 ||microsoft.com^
@@ -36,7 +35,9 @@
 ||client.wns.windows.com^$important
 !
 !!! Windows package related urls
+!!Winget, unigetui etc
 @@||cdn.winget.microsoft.com^$important
+!!Vscode and extensions
 @@||download.visualstudio.microsoft.com^$important
 @@||openvsxorg.blob.core.windows.net^$important
 !
