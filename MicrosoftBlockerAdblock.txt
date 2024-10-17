@@ -2,7 +2,7 @@
 ! Description: This blocklist will block almost all traffic to microsoft. Only some essential urls are allowed for windows update and winget package manager to work.
 ! Expires: 1 day
 ! Last modified: 17 Oct 2024
-! Version: 0.12
+! Version: 0.13
 ! Syntax: Adblock
 ! Number of entries: 64
 !
@@ -65,9 +65,9 @@
 ||licensing.mp.microsoft.com^$important
 ||geo.prod.do.dsp.mp.microsoft.com^
 ||licensing.mp.microsoft.com^$important
-!||nav.smartscreen.microsoft.com^
-!||nav-edge.smartscreen.microsoft.com^
-!||cxcs.microsoft.net
+||nav.smartscreen.microsoft.com^
+||nav-edge.smartscreen.microsoft.com^
+||cxcs.microsoft.net
 ||settings-win.data.microsoft.com^
 ||fd.api.iris.microsoft.com^
 ||inputsuggestions.msdxcdn.microsoft.com^
