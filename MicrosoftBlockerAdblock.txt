@@ -1,10 +1,10 @@
 ! Title: Microsoft Blocker Proper Adblock
 ! Description: This blocklist will block almost all traffic to microsoft. Only some essential urls are allowed for windows update and winget package manager to work.
 ! Expires: 1 day
-! Last modified: 17 Oct 2024
-! Version: 0.14
+! Last modified: 21 Oct 2024
+! Version: 0.15
 ! Syntax: Adblock
-! Number of entries: 65
+! Number of entries: 66
 !
 !!! Microsoft top level domains for blanket blocking
 ||microsoft.com^
@@ -30,8 +30,8 @@
 !!! Windows Update related Urls
 @@||update.microsoft.com^$important
 @@||delivery.mp.microsoft.com^$important
+@@||windowsupdate.com^$important
 ||prod.do.dsp.mp.microsoft.com^$important
-||windowsupdate.com^$important
 ||windowslatest.com^$important
 ||client.wns.windows.com^$important
 !
